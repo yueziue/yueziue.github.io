@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4936972",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e87f",
+      "unicode_decimal": 59519
+    },
+    {
+      "icon_id": "15188353",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "15188450",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "15188531",
+      "name": "quotation",
+      "font_class": "quotation",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "15188653",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    }
+  ]
+}

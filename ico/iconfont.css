@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1678018470629') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-facebook:before {
+  content: "\e6e5";
+}
+
+.icon-linkedin:before {
+  content: "\e6fc";
+}
+
+.icon-quotation:before {
+  content: "\e710";
+}
+
+.icon-twitter:before {
+  content: "\e72e";
+}
+
