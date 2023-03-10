@@ -645,8 +645,12 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel #carouselExampleAutoplaying .carousel-inner .carousel-item .row .col-lg-5 .testimonial-info {
-    left: 140px;
+    left: 250px;
+    position: absolute;
+    margin-top: 0;
     right: auto;
+    bottom: 0;
+    background: transparent;
   }
 }
 @media only screen and (min-width: 550px) and (max-width: 767px) {
@@ -816,7 +820,7 @@
 }
 @media (max-width: 550px) {
   .footer .container .row:nth-child(1) > div .newsletter-form-wrapper button {
-    position: static;
+    position: relative;
     margin: auto;
     margin-top: 15px;
   }
