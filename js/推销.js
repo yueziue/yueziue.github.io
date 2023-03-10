@@ -13,6 +13,7 @@ $(window).scroll(function () {
         $("#navigationButton").addClass("sticky");
         $("#logo").attr("src","./img/logo-2.svg");
         $(".placedAtTop").fadeIn();
+        $("#smallScreenButton span").css("background","#5f6fff");
     }else{
         $("#navigationBox").css({
             "background":"#5f6fff",
@@ -22,6 +23,7 @@ $(window).scroll(function () {
         $("#navigationButton").removeClass("sticky");
         $("#logo").attr("src","./img/logo.svg");
         $(".placedAtTop").fadeOut();
+        $("#smallScreenButton span").css("background","white");
     }
 });
 

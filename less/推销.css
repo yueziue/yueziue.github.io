@@ -164,6 +164,7 @@
 }
 .container #smallScreenDrop-downList {
   background-color: white;
+  color: #000;
   position: absolute;
   left: 0;
   top: 100%;
