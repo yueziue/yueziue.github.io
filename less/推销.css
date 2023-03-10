@@ -118,7 +118,7 @@
   transition: all 0.5s;
 }
 .container #navigationButton.sticky {
-  background-color: #EDEFFF;
+  background-color: #edefff;
   border-color: #5f6fff;
   color: #5f6fff;
 }
@@ -658,6 +658,16 @@
     position: absolute;
     margin-top: 0;
     left: 120px;
+    right: auto;
+    bottom: 0;
+    background: transparent;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .carousel #carouselExampleAutoplaying .carousel-inner .carousel-item .row .col-lg-5 .testimonial-info {
+    position: absolute;
+    margin-top: 0;
+    left: 110px;
     right: auto;
     bottom: 0;
     background: transparent;

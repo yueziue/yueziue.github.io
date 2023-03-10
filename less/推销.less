@@ -83,7 +83,7 @@
       cursor: pointer;
       margin: 0 20px;
       padding: 13px 0;
-      transition: all .3s;
+      transition: all 0.3s;
       &::after {
         content: "";
         display: block;
@@ -121,9 +121,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all .5s;
-    &.sticky{
-      background-color: #EDEFFF;
+    transition: all 0.5s;
+    &.sticky {
+      background-color: #edefff;
       border-color: #5f6fff;
       color: #5f6fff;
     }
@@ -699,6 +699,14 @@
                 bottom: 0;
                 background: transparent;
               }
+              @media only screen and (max-width: 550px) {
+                position: absolute;
+                margin-top: 0;
+                left: 110px;
+                right: auto;
+                bottom: 0;
+                background: transparent;
+              }
               h4 {
                 margin-bottom: 5px;
               }
@@ -950,12 +958,12 @@
   }
 }
 // 页脚
-.placedAtTop{
-  &::after{
+.placedAtTop {
+  &::after {
     width: 80px;
     height: 80px;
   }
-  &::before{
+  &::before {
     content: "∟";
     color: white;
     transform: rotate(135deg);
